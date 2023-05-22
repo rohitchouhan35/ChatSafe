@@ -44,7 +44,7 @@ body{
   background: #f8d7da;
   border: 1px solid #f5c6cb;
   margin-bottom: 10px;
-  display: block;
+  display: none;
 }
 .form form .name-details{
   display: flex;
