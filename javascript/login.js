@@ -7,7 +7,6 @@ form.onsubmit = (e)=>{
 }
 
 continueBtn.onclick = ()=>{
-    console.log("continur");
     let xhr = new XMLHttpRequest();
     xhr.open("POST", "php/login.php", true);
     xhr.onload = () => {
