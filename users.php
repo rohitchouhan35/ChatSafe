@@ -25,7 +25,7 @@
                         <p><?php echo $row['status'] ?></p>
                     </div>
                 </div>
-                <a href="login.php" class="logout">Logout</a>
+                <a href="php/logout.php?logout_id=<?php echo $row['unique_id'] ?>" class="logout">Logout</a>
             </header>
 
 
