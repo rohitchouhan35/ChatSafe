@@ -28,33 +28,7 @@ if (!isset($_SESSION['unique_id']) || empty($_SESSION['unique_id'])) {
                 </div>
             </header>
             <div class="chat-box">
-                <div class="chat outgoing">
-                    <div class="details">
-                        <p>Hello! Are you coming to college today?</p>
-                    </div>
-                </div>
-                <div class="chat incoming">
-                    <img src="images/<?php echo $row['img']; ?>" alt="">
-                    <div class="details">
-                        <p>Yup! And you?</p>
-                    </div>
-                </div>
-                <div class="chat outgoing">
-                    <div class="details">
-                        <p>Hello! Are you coming to college today?</p>
-                    </div>
-                </div>
-                <div class="chat incoming">
-                    <img src="images/<?php echo $row['img']; ?>" alt="">
-                    <div class="details">
-                        <p>Yup! And you?</p>
-                    </div>
-                </div>
-                <div class="chat outgoing">
-                    <div class="details">
-                        <p>Hello! Are you coming to college today?</p>
-                    </div>
-                </div>
+                
             </div>
             <form action="#" class="typing-area">
                 <input type="text" name="outgoing_id" value="<?php echo $_SESSION['unique_id']; ?>" hidden>
