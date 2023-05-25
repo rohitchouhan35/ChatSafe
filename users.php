@@ -25,7 +25,7 @@
                         <p><?php echo $row['status'] ?></p>
                     </div>
                 </div>
-                <a href="#" class="logout">Logout</a>
+                <a href="login.php" class="logout">Logout</a>
             </header>
 
 
